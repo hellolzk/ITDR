@@ -1,6 +1,6 @@
 ## ITDR: An Instruction Tuning Dataset for Enhancing Large Language Models in Recommendations
 
- [*Paper*](https://arxiv.org/abs/2508.05667). 
+ [*Paper*](https://arxiv.org/abs/2508.05667)
 
 ## Introduction
 
