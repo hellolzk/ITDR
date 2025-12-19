@@ -23,7 +23,7 @@ Large language models (LLMs) have demonstrated outstanding performance in natura
 | Dataset Name | Link |
 |--------------|------|
 | Anime Dataset 2023     | [https://www.kaggle.com/datasets/dbdmobile/myanimelist-dataset](https://www.kaggle.com/datasets/dbdmobile/myanimelist-dataset) |
-| MovieLens 1M/32M     | [https://grouplens.org/datasets/movielens/32m/](https://grouplens.org/datasets/movielens/32m/) |
+| MovieLens 1M/32M     | [https://grouplens.org/datasets/movielens/](https://grouplens.org/datasets/movielens/) |
 | Amazon Reviews 2023     | [https://huggingface.co/datasets/McAuley-Lab/Amazon-Reviews-2023/tree/main](https://huggingface.co/datasets/McAuley-Lab/Amazon-Reviews-2023/tree/main) |
 | MicroLens     | [https://github.com/westlake-repl/MicroLens](https://github.com/westlake-repl/MicroLens) |
 | PixelRec     | [https://github.com/westlake-repl/PixelRec](https://github.com/westlake-repl/PixelRec) |
