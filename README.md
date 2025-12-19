@@ -22,7 +22,7 @@ Large language models (LLMs) have demonstrated outstanding performance in natura
 
 | Dataset Name | Link |
 |--------------|------|
-| Last.FM 1K   | [[https://yann.lecun.com/exdb/mnist/](http://ocelma.net/MusicRecommendationDataset/lastfm-1K.html)|
+| Last.FM 1K   | [https://yann.lecun.com/exdb/mnist/](http://ocelma.net/MusicRecommendationDataset/lastfm-1K.html)|
 | CIFAR-10     | [https://www.cs.toronto.edu/~kriz/cifar.html](https://www.cs.toronto.edu/~kriz/cifar.html) |
 | ImageNet     | [http://image-net.org/](http://image-net.org/) |
 | COCO         | [https://cocodataset.org/](https://cocodataset.org/) |
