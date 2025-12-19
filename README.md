@@ -32,5 +32,5 @@ Large language models (LLMs) have demonstrated outstanding performance in natura
 | MIND     | [https://msnews.github.io/](https://msnews.github.io/) |
 | Steam     | [https://github.com/kang205/SASRec?tab=readme-ov-file](https://github.com/kang205/SASRec?tab=readme-ov-file) |
 | Yelp     | [https://www.kaggle.com/datasets/yelp-dataset/yelp-dataset](https://www.kaggle.com/datasets/yelp-dataset/yelp-dataset) |
-| Last.FM 360K     | http://ocelma.net/MusicRecommendationDataset/lastfm-360K.html[](http://ocelma.net/MusicRecommendationDataset/lastfm-360K.html) |
+| Last.FM 360K     | [http://ocelma.net/MusicRecommendationDataset/lastfm-360K.html](http://ocelma.net/MusicRecommendationDataset/lastfm-360K.html) |
 | Last.FM 1K   | [https://yann.lecun.com/exdb/mnist/](http://ocelma.net/MusicRecommendationDataset/lastfm-1K.html)|
