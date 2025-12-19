@@ -22,7 +22,6 @@ Large language models (LLMs) have demonstrated outstanding performance in natura
 
 | Dataset Name | Link |
 |--------------|------|
+| Anime Dataset 2023     | [https://www.kaggle.com/datasets/dbdmobile/myanimelist-dataset](https://www.kaggle.com/datasets/dbdmobile/myanimelist-dataset) |
+| ImageNet     | []() |
 | Last.FM 1K   | [https://yann.lecun.com/exdb/mnist/](http://ocelma.net/MusicRecommendationDataset/lastfm-1K.html)|
-| CIFAR-10     | [https://www.cs.toronto.edu/~kriz/cifar.html](https://www.cs.toronto.edu/~kriz/cifar.html) |
-| ImageNet     | [http://image-net.org/](http://image-net.org/) |
-| COCO         | [https://cocodataset.org/](https://cocodataset.org/) |
