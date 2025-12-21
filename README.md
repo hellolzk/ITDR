@@ -2,7 +2,7 @@
 
  [*Paper*](https://arxiv.org/abs/2508.05667)
 
-## Model
+## 🤖Model
 
 The modles are available at [*ModelScope*](https://www.modelscope.cn/profile/lzkhhh). 
 
