@@ -5,7 +5,9 @@
 ## 🤖Model
 
 The modles are available at [*ModelScope*](https://www.modelscope.cn/profile/lzkhhh). 
+
 All fine-tuned LoRA adapters are available via [*Google Drive*](https://drive.google.com/drive/folders/1sCCUo1d3bEIVIoRyxN2DnAP0PlkwfTfj?usp=sharing). 
+
 ## 🔥News
 * **[Nov. 2025]**: **ITDR** has been accepted to **KDD2026**!
 
