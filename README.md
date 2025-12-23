@@ -43,7 +43,7 @@ Large language models (LLMs) have demonstrated outstanding performance in natura
 ## Deployment and Inference
 We use [*vLLM*](https://github.com/vllm-project/vllm) for deployment and inference. Below is an example:
 ```bash
-CUDA_VISIBLE_DEVICES=0 vllm serve /root/shared-nvme/merged_model/glm4/sampled31250_wo_source_task \
+CUDA_VISIBLE_DEVICES=0 vllm serve /root/ITDR-GLM-4-9B \
     --host 0.0.0.0 \
     --port 8098 \
     --max-model-len 8192 \
