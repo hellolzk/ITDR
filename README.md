@@ -40,6 +40,31 @@ Large language models (LLMs) have demonstrated outstanding performance in natura
 | Last.FM 360K     | [http://ocelma.net/MusicRecommendationDataset/lastfm-360K.html](http://ocelma.net/MusicRecommendationDataset/lastfm-360K.html) |
 | Last.FM 1K   | [https://yann.lecun.com/exdb/mnist/](http://ocelma.net/MusicRecommendationDataset/lastfm-1K.html)|
 
+## Finetune
+We use [*LLaMA-Factory*](https://github.com/hiyouga/LLaMA-Factory) for model fine-tuning. Below is an example of fine-tuning GLM-4:
+
+```bash
+CUDA_VISIBLE_DEVICES=0 python src/train.py \
+--model_name_or_path /root/shared-nvme/models/glm-4-9b/ZhipuAI/glm-4-9b \
+--trust_remote_code \
+--stage sft \
+--do_train \
+--dataset train \
+--template glm4 \
+--finetuning_type lora \
+--output_dir saves/glm-4-9b/sft \
+--overwrite_cache \
+--per_device_train_batch_size 1 \
+--gradient_accumulation_steps 8 \
+--lr_scheduler_type cosine \
+--logging_steps 100 \
+--save_steps 500 \
+--learning_rate 1e-4 \
+--num_train_epochs 2.0 \
+--plot_loss \
+--bf16
+```
+
 ## Deployment and Inference
 We use [*vLLM*](https://github.com/vllm-project/vllm) for deployment and inference. Below is an example:
 ```bash
