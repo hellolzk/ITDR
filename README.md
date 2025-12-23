@@ -40,6 +40,20 @@ Large language models (LLMs) have demonstrated outstanding performance in natura
 | Last.FM 360K     | [http://ocelma.net/MusicRecommendationDataset/lastfm-360K.html](http://ocelma.net/MusicRecommendationDataset/lastfm-360K.html) |
 | Last.FM 1K   | [https://yann.lecun.com/exdb/mnist/](http://ocelma.net/MusicRecommendationDataset/lastfm-1K.html)|
 
+## Deployment and Inference
+We use [*vLLM*](https://github.com/vllm-project/vllm) for deployment and inference. Below is an example:
+'''
+CUDA_VISIBLE_DEVICES=0 vllm serve /root/ITDR-GLM-4-9B \
+    --host 0.0.0.0 \
+    --port 8098 \
+    --max-model-len 8192 \
+    --tensor-parallel-size 1 \
+    --disable-log-requests \
+    --gpu-memory-utilization 0.9 \
+    --enable-prefix-caching \
+    --trust-remote-code
+'''
+
 ## The statistics of ITDR
 <img width="1098" height="1553" alt="statistics_of_datasets" src="https://github.com/user-attachments/assets/f9f5f1cc-5f98-4dee-9e8f-bbc0545b532d" />
 
